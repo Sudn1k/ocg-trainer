@@ -1,0 +1,13 @@
+{
+  "name": "ocg-trainer",
+  "version": "1.0.0",
+  "description": "Онлайн-тренажёр по курсу «Информатика. Основы цифровой грамотности» (ОЦГ)",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "import": "node scripts/import-html.mjs",
+    "build": "node scripts/import-html.mjs",
+    "build:pages": "node scripts/build-standalone.mjs",
+    "test": "node scripts/verify.mjs"
+  }
+}
